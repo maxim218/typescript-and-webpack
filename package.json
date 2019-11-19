@@ -1,0 +1,23 @@
+{
+  "name": "typescript-and-webpack",
+  "version": "1.2.3",
+  "description": "TypeScript and Webpack",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node ./dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "Maxim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.1.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
